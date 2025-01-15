@@ -22,9 +22,9 @@
     </ul>
     <h2>Ekran Görüntüleri</h2>
     <p>Aşağıda uygulamanın bazı ekran görüntüleri bulunmaktadır:</p>
-    <img src="" alt="HastaPaneli">
-    <img src="" alt="DoktorPaneli">
-    <img src="" alt="AdminPaneli">
+    <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Hasta.png" alt="HastaPaneli">
+    <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Doktor.png" alt="DoktorPaneli">
+    <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Admin1.png" alt="AdminPaneli">
     <h2>Kurulum</h2>
     <ol>
         <li>Bu projeyi indirmek için aşağıdaki komutu çalıştırın:</li>
