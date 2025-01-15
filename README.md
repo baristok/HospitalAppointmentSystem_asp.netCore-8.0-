@@ -7,27 +7,28 @@
     <h2>Özellikler</h2>
     <ul>
         <li>Hasta kaydı ve giriş işlemleri</li>
-        <li>Doktor yönetimi ve takvim oluşturma</li>
+        <li>Doktor yönetimi</li>
         <li>Randevu oluşturma sistemi</li>
-        <li>Kullanıcı dostu arayüz</li>
         <li>Rol tabanlı erişim kontrolü (Admin, Doktor, Hasta)</li>
+        <li>Admin: Tüm randevuları görüntüler, doktor ekleme, genel istatistik</li>
+        <li>Doktor: Kendisine gelen hastaları yönetir</li>
+        <li>Hasta: Randevu ekleme, randevuları görüntüleme</li>
     </ul>
     <h2>Gereksinimler</h2>
     <ul>
         <li><code>.NET 8.0 SDK</code></li>
-        <li>Visual Studio 2022 veya Visual Studio Code</li>
-        <li>SQL Server (veritabanı için)</li>
+        <li>Visual Studio 2022 veya Rider(IDE)</li>
+        <li>MSSQL Server (veritabanı için)</li>
     </ul>
+    <h2>Ekran Görüntüleri</h2>
+    <p>Aşağıda uygulamanın bazı ekran görüntüleri bulunmaktadır:</p>
+    <img src="" alt="HastaPaneli">
+    <img src="" alt="DoktorPaneli">
+    <img src="" alt="AdminPaneli">
     <h2>Kurulum</h2>
     <ol>
         <li>Bu projeyi indirmek için aşağıdaki komutu çalıştırın:</li>
-        <pre><code>git clone https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-.git</code></pre>
-        <li>Proje dizinine gidin:</li>
-        <pre><code>cd HospitalAppointmentSystem_asp.netCore-8.0-</code></pre>
-        <li>Gerekli bağımlılıkları yüklemek için:</li>
-        <pre><code>dotnet restore</code></pre>
-        <li>Uygulamayı çalıştırmak için:</li>
-        <pre><code>dotnet run</code></pre>
+        <pre><code>git clone https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-.git</code></pre>   
     </ol>
     <h2>Bağlantılar</h2>
     <ul>
