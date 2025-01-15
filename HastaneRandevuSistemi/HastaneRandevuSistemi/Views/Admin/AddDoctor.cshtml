@@ -1,0 +1,55 @@
+﻿@model DoctorViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Doktor Kayıt Formu</h4>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form asp-action="AddDoctor" asp-controller="Admin" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Adı</label>
+                <input asp-for="Name" class="form-control" id="name" placeholder="Adı giriniz">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="surname" class="form-label">Soyadı</label>
+                <input asp-for="Surname" class="form-control" id="surname" placeholder="Soyadı giriniz">
+                <span asp-validation-for="Surname" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefon</label>
+                <input asp-for="Phone" class="form-control" id="phone" placeholder="Telefon numarası giriniz">
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" id="email" placeholder="Email adresini giriniz">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="alan" class="form-label">Uzmanlık Alanı</label>
+                <input asp-for="Alan" class="form-control" id="alan" placeholder="Uzmanlık alanını giriniz">
+                <span asp-validation-for="Alan" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Doktor Kaydet</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.runtimeconfig.json
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.genruntimeconfig.cache
+C:\Users\baris\OneDrive\Masaüstü\software earth\.net core mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.runtimeconfig.json
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.genruntimeconfig.cache
+C:\Projeler\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.runtimeconfig.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\EntityLayer.genruntimeconfig.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll

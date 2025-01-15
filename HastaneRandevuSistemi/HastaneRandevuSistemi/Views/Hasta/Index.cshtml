@@ -1,0 +1,102 @@
+﻿@model List<DataAccessLayer.EntityFramework.RandevuWithDoctorDetailsDto>
+
+@{
+    ViewBag.Title = "Randevu Listesi";
+    Layout = "_HastaLayout";
+}
+
+
+<div class="content">
+    @if (Model.Count > 0)
+    {
+        <div class="breadcrumb">
+            
+        <div class="breadcrumbs-inner text-center">
+            <p>Merhaba Sayın @ViewBag.HastaAdSoyad</p>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-header text-white bg-warning">
+                <strong>
+                    Randevu Tablosu
+                </strong>
+            </div>
+            <div class="card-body">
+                <table id="randevu-table" class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Branş</th>
+                        <th>Doktor Adı</th>
+                        <th>Randevu Tarihi</th>
+                        <th>Durum</th>
+                        <th>İşlemler</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @{
+                        int i = 1;
+                    }
+                    @foreach (var randevu in Model)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@randevu.DoktorAlani</td>
+                            <td>@randevu.DoktorAdSoyad</td>
+                            <td>@randevu.RandevuTarihi.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>
+                                <span class="badge badge-success">Onaylandı</span>
+                            </td>
+                            <td>
+                                <button class="btn btn-sm btn-danger delete-button" data-id="@randevu.RandevuId">
+                                    Sil
+                                </button>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Henüz bir randevunuz bulunmamaktadır.</p>
+    }
+</div>
+
+
+<!-- DataTables JS -->
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).on("click", ".delete-button", function () {
+        var randevuId = $(this).data("id");
+
+        if (confirm("Bu randevuyu silmek istediğinize emin misiniz?")) {
+            $.ajax({
+                url: "/Hasta/Delete",
+                type: "POST",
+                data: { randevuId: randevuId },
+                success: function (response) {
+                    alert(response);
+                    location.reload(); // Sayfayı yenileyerek listeyi güncelle
+                },
+                error: function (xhr) {
+                    alert("Randevu silinirken bir hata oluştu: " + xhr.responseText);
+                }
+            });
+        }
+    });
+    
+    $(document).ready(function () {
+            // DataTable başlat
+            $('#randevu-table').DataTable({
+                "ordering": true, // Sıralamayı etkinleştir
+                "order": [[3, "desc"]] // Varsayılan sıralama yok
+            });
+        });
+</script>

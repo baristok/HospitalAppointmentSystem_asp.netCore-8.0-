@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Admin Paneli";
+    Layout = "_AdminLayout";
+}
+
+<div class="content">
+    <!-- Animated -->
+    <div class="animated fadeIn">
+        <!-- Widgets -->
+        <div class="row">
+            <!-- Doktor Sayısı Widget -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stat-widget-five">
+                            <div class="stat-icon dib flat-color-1">
+                                <i class="fa fa-user-md"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="text-left dib">
+                                    <div class="stat-text">
+                                        <span class="count">@ViewBag.DoctorCount</span>
+                                    </div>
+                                    <div class="stat-heading">Doktor Sayısı</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hasta Sayısı Widget -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stat-widget-five">
+                            <div class="stat-icon dib flat-color-2">
+                                <i class="pe-7s-users"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="text-left dib">
+                                    <div class="stat-text">
+                                        <span class="count">@ViewBag.HastalarCount</span>
+                                    </div>
+                                    <div class="stat-heading">Hasta Sayısı</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Randevu Sayısı Widget -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="stat-widget-five">
+                            <div class="stat-icon dib flat-color-3">
+                                <i class="pe-7s-date"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="text-left dib">
+                                    <div class="stat-text">
+                                        <span class="count">@ViewBag.RandevuCount</span>
+                                    </div>
+                                    <div class="stat-heading">Randevu Sayısı</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Widgets -->
+
+        <!-- Doktor Listesi ve Weather -->
+        <div class="row">
+            <!-- Doktor Listesi -->
+            <div class="col-xl-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="box-title">Doktor Listesi
+                            <a asp-action="AddDoctor" asp-controller="Admin" class="btn btn-primary float-right">
+                                <i class="fa fa-user-md"></i> Doktor Ekle
+                            </a>
+                        </h4>
+                    </div>
+                    <div class="card-body--">
+                        <div class="table-stats order-table ov-h">
+                            @await Html.PartialAsync("DoctorList")
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weather -->
+            <div class="col-xl-4">
+                <div class="card weather-box">
+                    <h4 class="weather-title box-title">Weather</h4>
+                    <div class="card-body">
+                        <div class="weather-widget">
+                            <div id="weather-one" class="weather-one"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Doktor Listesi ve Weather -->
+    </div>
+    <!-- /.animated -->
+</div>
+

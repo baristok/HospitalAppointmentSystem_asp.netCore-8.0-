@@ -1,0 +1,46 @@
+﻿@model List<EntityLayer.Concrate.AppUser>
+
+
+<div class="table-stats order-table ov-h">
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="serial">#</th>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Email</th>
+            <th>Telefon</th>
+            <th>Uzmanlık Alanı</th>
+        </tr>
+        </thead>
+        <tbody>
+        @if (Model != null && Model.Any())
+        {
+            int index = 1;
+            foreach (var doctor in Model)
+            {
+                <tr>
+                    <td>@index</td>
+                    <td>@doctor.Name</td>
+                    <td>@doctor.Surname</td>
+                    <td>@doctor.Email</td>
+                    <td>@doctor.PhoneNumber</td>
+                    <td>@doctor.Alan</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm delete-doctor-button" data-id="@doctor.Id">
+                            Sil
+                        </button>
+                    </td>
+                </tr>
+                index++;
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" style="text-align: left">Kayıtlı doktor bulunamadı.</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

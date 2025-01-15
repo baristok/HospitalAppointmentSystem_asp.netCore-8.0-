@@ -1,0 +1,17 @@
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\baris\OneDrive\Masaüstü\software_earth\dot_net_core_mvc\HastaneRandevuSistemi\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
