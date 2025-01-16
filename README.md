@@ -26,7 +26,7 @@
     <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Hasta.png" alt="HastaPaneli">
     <p>Doktor Paneli:</p>
     <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Doktor.png" alt="DoktorPaneli">
-    <p>Admin Paneli(Kişisel Datalar FakePersonGenerator tarafından sağlanmıştır):</p>
+    <p>Admin Paneli (Kişisel Datalar FakePersonGenerator tarafından sağlanmıştır):</p>
     <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Admin1.png" alt="AdminPaneli">
     <h2>Kurulum</h2>
     <ol>
