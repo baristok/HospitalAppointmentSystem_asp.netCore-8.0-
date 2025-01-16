@@ -3,7 +3,7 @@
 </head>
 <body>
     <h1>Hastane Randevu Sistemi</h1>
-    <p><strong>Hastane Randevu Sistemi</strong>, <code>ASP.NET Core 8.0</code> N katmanlı mimari yapısı ve SOLID prensiplerine uygun olarak geliştirilmiş bir web uygulamasıdır. Bu sistem, hastane randevularını yönetmek için hasta kaydı, doktor takvimi ve randevu oluşturma gibi işlevler sunar.</p>
+    <p><strong>Hastane Randevu Sistemi</strong>, <code>ASP.NET Core 8.0 N katmanlı mimari yapısı ve SOLID prensiplerine</code> uygun olarak geliştirilmiş bir web uygulamasıdır. Bu sistem, hastane randevularını yönetmek için hasta kaydı, doktor takvimi ve randevu oluşturma gibi işlevler sunar.</p>
     <h2>Özellikler</h2>
     <ul>
         <li>Hasta kaydı ve giriş işlemleri</li>
