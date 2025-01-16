@@ -22,8 +22,11 @@
     </ul>
     <h2>Ekran Görüntüleri</h2>
     <p>Aşağıda uygulamanın bazı ekran görüntüleri bulunmaktadır:</p>
+    <p>Hasta Paneli:</p>
     <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Hasta.png" alt="HastaPaneli">
+    <p>Doktor Paneli:</p>
     <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Doktor.png" alt="DoktorPaneli">
+    <p>Admin Paneli:</p>
     <img src="https://github.com/baristok/HospitalAppointmentSystem_asp.netCore-8.0-/blob/main/HastaneRandevuSistemi/HastaneRandevuSistemi/wwwroot/images/Admin1.png" alt="AdminPaneli">
     <h2>Kurulum</h2>
     <ol>
